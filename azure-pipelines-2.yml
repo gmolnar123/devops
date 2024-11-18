@@ -26,4 +26,4 @@ stages:
         command: build
         dockerfile: '$(Build.SourcesDirectory)/WebApplication1/Dockerfile'
         tags: |
-          $(tag)
+          gmolnar285/vsrepo
